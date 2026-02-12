@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model weights
+*.pth
+*.pt
+*.onnx
+
+# Audio dataset (too large for git)
+*.wav
+*.mp3
+*.mp4
+*.flac
+*.ogg
+*.m4a
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and misc
+*.log
+wandb/
+runs/
